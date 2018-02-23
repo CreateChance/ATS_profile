@@ -1,0 +1,136 @@
+SiiNunit
+{
+direct_gearbox_config : _nameless.e9.d330 {
+ name: "Eaton Fuller 10 @@speeds@@"
+ clutch_mode: analog
+ selector_mode: range_split
+ gears: 14
+ gears[0]: _nameless.1bf.f970
+ gears[1]: _nameless.1bf.f9d0
+ gears[2]: _nameless.1bf.fa30
+ gears[3]: _nameless.1bf.fa90
+ gears[4]: _nameless.1bf.faf0
+ gears[5]: _nameless.1bf.fb50
+ gears[6]: _nameless.1bf.fbb0
+ gears[7]: _nameless.1bf.fc10
+ gears[8]: _nameless.1bf.fc70
+ gears[9]: _nameless.1bf.fcd0
+ gears[10]: _nameless.1bf.fd30
+ gears[11]: _nameless.1bf.fd90
+ gears[12]: _nameless.1bf.fdf0
+ gears[13]: _nameless.1bf.fe50
+}
+
+direct_gearbox_gear : _nameless.1bf.f970 {
+ gear_impulse_index: 0
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: N
+}
+
+direct_gearbox_gear : _nameless.1bf.f9d0 {
+ gear_impulse_index: 2
+ selector_1: 0
+ selector_2: -1
+ gear: -1
+ name: RL
+}
+
+direct_gearbox_gear : _nameless.1bf.fa30 {
+ gear_impulse_index: 2
+ selector_1: 1
+ selector_2: -1
+ gear: -2
+ name: RH
+}
+
+direct_gearbox_gear : _nameless.1bf.fa90 {
+ gear_impulse_index: 3
+ selector_1: 0
+ selector_2: -1
+ gear: 1
+ name: 1
+}
+
+direct_gearbox_gear : _nameless.1bf.faf0 {
+ gear_impulse_index: 4
+ selector_1: 0
+ selector_2: -1
+ gear: 2
+ name: 2
+}
+
+direct_gearbox_gear : _nameless.1bf.fb50 {
+ gear_impulse_index: 5
+ selector_1: 0
+ selector_2: -1
+ gear: 3
+ name: 3
+}
+
+direct_gearbox_gear : _nameless.1bf.fbb0 {
+ gear_impulse_index: 6
+ selector_1: 0
+ selector_2: -1
+ gear: 4
+ name: 4
+}
+
+direct_gearbox_gear : _nameless.1bf.fc10 {
+ gear_impulse_index: 7
+ selector_1: 0
+ selector_2: -1
+ gear: 5
+ name: 5
+}
+
+direct_gearbox_gear : _nameless.1bf.fc70 {
+ gear_impulse_index: 3
+ selector_1: 1
+ selector_2: -1
+ gear: 6
+ name: 6
+}
+
+direct_gearbox_gear : _nameless.1bf.fcd0 {
+ gear_impulse_index: 4
+ selector_1: 1
+ selector_2: -1
+ gear: 7
+ name: 7
+}
+
+direct_gearbox_gear : _nameless.1bf.fd30 {
+ gear_impulse_index: 5
+ selector_1: 1
+ selector_2: -1
+ gear: 8
+ name: 8
+}
+
+direct_gearbox_gear : _nameless.1bf.fd90 {
+ gear_impulse_index: 6
+ selector_1: 1
+ selector_2: -1
+ gear: 9
+ name: 9
+}
+
+direct_gearbox_gear : _nameless.1bf.fdf0 {
+ gear_impulse_index: 7
+ selector_1: 1
+ selector_2: -1
+ gear: 10
+ name: 10
+}
+
+direct_gearbox_gear : _nameless.1bf.fe50 {
+ gear_impulse_index: 1
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: ""
+}
+
+}
